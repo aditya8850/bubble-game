@@ -94,7 +94,7 @@ html,body{
 }
 
 /* responsiveness */
-@media screen and (max-height: 815px)and (max-width: 420px) {
+@media screen and (max-height: 800px)and (max-width: 420px) {
     
     #panel{
         background: rgb(17, 7, 7);
@@ -119,20 +119,20 @@ html,body{
     }
     #pbtm{border: 3px solid red;
         flex-wrap: wrap;
-        width: auto;
-        height: calc(100% - 100px);
-        
+        width: 100%;
+        height: calc(100% - 110px);
+        margin-top: 20px;
         margin-left: 0;
      
         padding-left: 10px;
+        overflow: scroll;
         
     }
     .pbttmm{
         font-size: 4rem;
         color: white;
-        position: relative;
-        top: 10rem;
-        height: calc(100% - 100px);
+       
     }
+    
   }
   
