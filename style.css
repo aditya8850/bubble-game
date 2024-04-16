@@ -40,7 +40,7 @@ html,body{
     display: flex;
     align-items: center;
     gap: 10px;
-    padding-left: 1rem;
+    
     
 }
 .box{
@@ -92,3 +92,30 @@ html,body{
     background-color: rgb(30, 119, 30);
     cursor: pointer;
 }
+
+/* responsiveness */
+@media screen and (max-width: 420px) {
+    /* CSS rules for small screens */
+    #panel{
+        background: rgb(17, 7, 7);
+    }
+    #ptop{
+       color: white;
+       display: flex;
+        
+    }
+    .elem{
+       
+       display: block;
+       margin: auto;
+       margin-top: 5px;
+       position: relative;
+       left: -20px;
+       padding: 5px 5px;
+    }
+    .box{
+        margin-top: 5px;
+    }
+    
+  }
+  
