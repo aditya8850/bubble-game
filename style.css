@@ -95,7 +95,7 @@ html,body{
 
 /* responsiveness */
 @media screen and (max-width: 420px) {
-    /* CSS rules for small screens */
+    
     #panel{
         background: rgb(17, 7, 7);
     }
@@ -116,6 +116,11 @@ html,body{
     .box{
         margin-top: 5px;
     }
-    
+    .pbttmm{
+        margin: 7rem;
+        font-size: 4rem;
+        color: white;
+       
+    }
   }
   

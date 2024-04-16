@@ -1,4 +1,4 @@
-let timer= 60;
+let timer= 6;
 let score= 0;
 //fn to render Bubble
 function renderBubble() {
@@ -21,6 +21,7 @@ function runTimer(){
                 clearInterval(timerId);
                 document.querySelector("#pbtm").innerHTML=" Game Over ";
                 document.querySelector("#pbtm").classList.add('pbttm')
+                document.querySelector("#pbtm").classList.add('pbttmm')
             }
         },1000);
     
