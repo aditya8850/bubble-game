@@ -1,4 +1,4 @@
-let timer= 6;
+let timer= 60;
 let score= 0;
 //fn to render Bubble
 function renderBubble() {
