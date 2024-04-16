@@ -45,7 +45,7 @@ document.querySelector("#pbtm").addEventListener('click',function(e){
         getHit();
         renderBubble()
     }
-})
+});
 renderBubble()
 runTimer()
 getHit()
