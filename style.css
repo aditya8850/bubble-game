@@ -116,10 +116,18 @@ html,body{
     .box{
         margin-top: 5px;
     }
+    #pbtm{
+        flex-wrap: wrap;
+        width: 100%;
+        height: calc(100% - 100px);
+        display: flex;
+        margin:1rem;
+    }
     .pbttmm{
-        margin: 7rem;
         font-size: 4rem;
         color: white;
+        position: relative;
+        top: 10rem;
        
     }
   }
