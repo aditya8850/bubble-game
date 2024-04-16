@@ -117,7 +117,7 @@ html,body{
         margin-top: 5px;
         padding: 10px;
     }
-    #pbtm{border: 3px solid red;
+    #pbtm{
         flex-wrap: wrap;
         width: 100%;
         height: calc(100% - 110px);
